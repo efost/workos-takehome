@@ -2,16 +2,18 @@
 
 WorkOS take-home assignment
 
-TODO:
+Productionization TODO:
 
 - [x] Get placeholder page loading
-- [ ] Get data loading statically
-- [ ] Loading state
+- [x] Get data loading statically
+- [x] Loading state
 - [ ] Get data loading dynamically
-- [ ] Create basic table to show roster
-  - [ ] Create row
-  - [ ] Create checkbox for each row
-- [ ] Ensure keyboard a11y
-- [ ] Style table
-- [ ] Add admin row animation
-- [ ] Cleanup/polish UI
+- [x] Create basic table to show roster
+  - [x] Create row
+  - [x] Create checkbox for each row
+- [x] Ensure keyboard a11y
+- [x] Style table
+- [x] Add admin row animation
+- [x] Cleanup/polish UI
+- [ ] Figure out why checking "role" on user records breaks filtering
+- [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data somehow
