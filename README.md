@@ -17,3 +17,4 @@ Productionization TODO:
 - [x] Cleanup/polish UI
 - [ ] Figure out why checking "role" on user records breaks filtering
 - [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data somehow
+- [ ] Figure out why body is artifically wide
