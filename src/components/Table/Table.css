@@ -1,0 +1,65 @@
+.table {
+  /* CSS vars */
+  --avatar-size: 48px;
+  --lt-grey: #eaeaea;
+  --lt-blue: #ecfdff;
+  margin: 0;
+  min-width: 80dvw;
+}
+
+.person-admin-cell {
+  display: flex;
+  justify-content: center;
+}
+
+.person-photo-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-photo-cell img {
+  max-width: var(--avatar-size);
+}
+
+.table-header {
+  color: #000;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.table-row {
+  position: relative;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(40px, 100px) calc(var(--avatar-size) + (2 * var(--unit))) minmax(100px, 1fr) minmax(100px, 1fr);
+  border-bottom: 1px solid var(--lt-grey);
+  align-items: center;
+}
+
+.hide-select.table-row {
+  grid-template-columns: calc(var(--avatar-size) + (2 * var(--unit))) minmax(100px, 1fr) minmax(100px, 1fr);
+}
+
+
+:not(.hide-select).table-row.checked {
+  background: var(--lt-blue);
+}
+
+.table-row > :not(.person-admin-cell) {
+  position: relative;
+  left: 0;
+  padding: var(--unit);
+  will-change: left;
+  transition: left 0.3s ease-out;
+}
+
+:not(.hide-select).table-row.checked > * {
+  left: 50px;
+}
+
+.no-records {
+  padding: calc(2 * var(--unit));
+}
+

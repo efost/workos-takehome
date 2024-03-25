@@ -1,0 +1,51 @@
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* CSS vars */
+:root {
+  --unit: 8px;
+  --font-stack-sans: "Montserrat", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+#root {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+html, 
+body,
+#root
+{
+  font-family: var(--font-stack-sans);
+  height: 100%;
+}
+
+.loading {
+  position: absolute;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: pulse 3s infinite ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

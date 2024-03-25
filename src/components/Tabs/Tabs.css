@@ -1,0 +1,19 @@
+.tab {
+  --active-blue: #0000ff;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  padding: var(--unit);
+  margin-right: calc(2 * var(--unit));
+  margin-bottom: calc(2 * var(--unit));
+  will-change: border-bottom-color;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.tab.active {
+  border-bottom-color: var(--active-blue);
+}
+
+.tab h3 {
+  margin: 0;
+}
