@@ -16,8 +16,8 @@
 
 #root {
   box-sizing: border-box;
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 100dvw;
+  margin: 0;
   padding: 2rem;
 }
 
@@ -40,12 +40,8 @@ body,
 .loading {
   position: absolute;
   font-weight: bold;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  animation: pulse 3s infinite ease-in-out;
   display: flex;
+  animation: pulse 3s infinite ease-in-out;
   align-items: center;
   justify-content: center;
 }
