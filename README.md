@@ -7,7 +7,6 @@ Productionization TODO:
 - [x] Get placeholder page loading
 - [x] Get data loading statically
 - [x] Loading state
-- [ ] Get data loading dynamically
 - [x] Create basic table to show roster
   - [x] Create row
   - [x] Create checkbox for each row
@@ -15,6 +14,7 @@ Productionization TODO:
 - [x] Style table
 - [x] Add admin row animation
 - [x] Cleanup/polish UI
+- [ ] Get data loading dynamically
 - [ ] Figure out why checking "role" on user records breaks filtering
 - [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data somehow
 - [ ] Figure out why body is artifically wide
