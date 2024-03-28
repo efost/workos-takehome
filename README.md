@@ -19,3 +19,4 @@ Productionization TODO:
 - [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data somehow
 - [ ] Add arrow key support for cycling through users?
 - [ ] Make tabs accessible
+- [ ] Make loader nicer and centered in page
