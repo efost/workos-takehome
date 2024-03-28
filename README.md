@@ -1,5 +1,7 @@
 # WorkOS take-home assignment
+https://efost.github.io/workos-takehome/
 
+Prompt:
 Build a UI with two tabs: One to display all members and allow for promotion of any user(s) to admin status, and another to display users separated into admin and non-admin role groups.
 
 Productionization TODO:
@@ -16,7 +18,7 @@ Productionization TODO:
 - [x] Cleanup/polish UI
 - [ ] Get data loading dynamically
 - [ ] Figure out why checking "role" on user records breaks filtering
-- [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data somehow
+- [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data so we can use Set data structure
 - [ ] Add arrow key support for cycling through users?
 - [ ] Make tabs accessible
 - [ ] Make loader nicer and centered in page
