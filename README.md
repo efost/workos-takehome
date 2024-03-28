@@ -1,6 +1,6 @@
-# workos-takehome
+# WorkOS take-home assignment
 
-WorkOS take-home assignment
+Build a UI with two tabs: One to display all members and allow for promotion of any user(s) to admin status, and another to display users separated into admin and non-admin role groups.
 
 Productionization TODO:
 
@@ -10,11 +10,12 @@ Productionization TODO:
 - [x] Create basic table to show roster
   - [x] Create row
   - [x] Create checkbox for each row
-- [x] Ensure keyboard a11y
+- [x] Ensure basic keyboard a11y
 - [x] Style table
 - [x] Add admin row animation
 - [x] Cleanup/polish UI
 - [ ] Get data loading dynamically
 - [ ] Figure out why checking "role" on user records breaks filtering
 - [ ] Make filter logic more robust -- integrate the kebab-case key from the main JSON data somehow
-- [ ] Figure out why body is artifically wide
+- [ ] Add arrow key support for cycling through users?
+- [ ] Make tabs accessible
