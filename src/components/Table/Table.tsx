@@ -15,9 +15,7 @@ const Table = ({
   return (
     <div className="table">
       <div
-        className={`table-header table-row ${
-          hideSelect ? "hide-select" : null
-        }`}
+        className={`table-header table-row ${hideSelect ? "hide-select" : ""}`}
       >
         {!hideSelect && <div className="person-admin-cell">Admin</div>}
         <div className="person-photo-cell">Photo</div>
@@ -29,8 +27,8 @@ const Table = ({
           if (!u) return;
           return (
             <div
-              className={`table-row ${checkedList[i] ? "checked" : null} ${
-                hideSelect ? "hide-select" : null
+              className={`table-row ${checkedList[i] ? "checked" : ""} ${
+                hideSelect ? "hide-select" : ""
               }`}
               key={`person-${i}`}
             >

@@ -10,7 +10,7 @@ const Tab = ({
   onClick: () => void;
 }) => {
   return (
-    <div className={`tab ${active ? "active" : null}`}>
+    <div className={`tab ${active ? "active" : ""}`}>
       <h3 onClick={onClick}>{title}</h3>
     </div>
   );
